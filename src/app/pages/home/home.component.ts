@@ -21,7 +21,6 @@ export class HomeComponent implements AfterViewInit,OnInit {
   public dynamicScriptLoader = inject(LoadJsDynamicallyService);
 
   ngOnInit(): void {
-     
     this.loadScripts();
   }
 
