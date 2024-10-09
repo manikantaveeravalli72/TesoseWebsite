@@ -38,7 +38,7 @@
               "src/styles.scss",
               "public/css/burger-menu.css",
               "public/css/jquery-ui.css",
-              "public/css/clientlib-commons.css",    
+              "public/css/clientlib-commons.css",
               "public/css/clientlib-base.css",
               "public/css/commonstylesnew.css",
               "public/css/burger-menu.css",
@@ -46,24 +46,8 @@
               "public/css/customdev.css"
             ],
             "scripts": [
-               "node_modules/jquery/dist/jquery.min.js",
-               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-               "node_modules/owl.carousel/dist/owl.carousel.min.js",
-               "public/js/clientlib-dependencies.js",
-                "public/js/customdev.js",
-                "public/js/jquery.js",
-                "public/js/jquery-ui.js",
-                "public/js/burger-menu.js",
-                "public/js/type.js",
-                "public/js/custom.js",
-                "public/js/csrf.js",
-                "public/js/jquery.scrollify.min.js",
-                "public/js/clientlib-base.js",
-                "public/js/utils.js",
-                "public/js/granite.js",
-                "public/js/shared.js",
-                "public/js/clientlib-commons.js",
-                "public/js/container.js"
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {
@@ -128,5 +112,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "99fd4cce-16c1-44b3-ba32-0614c6cb69a1"
   }
 }
