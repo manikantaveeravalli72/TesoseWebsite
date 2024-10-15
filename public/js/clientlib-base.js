@@ -2305,7 +2305,7 @@ $(document).ready(function () {
     });
 
     if ($(window).width() <= 767) {
-        if ($('#hero_slider_carousel').length) { $('.hero-list').hide(); }
+        if ($('#home_slider_carousel').length) { $('.hero-list').hide(); }
     }
 
     $(document).on("click", ".trigger-share", function () {

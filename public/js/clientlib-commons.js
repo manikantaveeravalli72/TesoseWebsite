@@ -9797,9 +9797,9 @@
  /* ------------- OWL CAROUSEL SYNTAX ---------------*/
  
      //hero banner Slider
-     var hero_slider_length = $("#hero_slider_carousel").find('.item').length;
+     var hero_slider_length = $("#home_slider_carousel").find('.item').length;
      //alert(hero_slider_length);		
-     $("#hero_slider_carousel").owlCarousel({
+     $("#home_slider_carousel").owlCarousel({
          dots: hero_slider_length > 1 ? true : false,
          nav: hero_slider_length > 1 ? false : false,
          touchDrag: hero_slider_length > 1 ? true : false,
