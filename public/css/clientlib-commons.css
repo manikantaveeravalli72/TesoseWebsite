@@ -11792,22 +11792,22 @@ ul.navs > li > .menu-title {
   z-index: 0;
 }
 .ai-powered-core-img {
-  background-image: url(https://www.infosys.com/content/dam/infosys-web/en/home/images/ai-core-01.png);
+  background-image: url(../images/ai-core-01.avif);
 }
 .agile-digital-bg-img {
-  background-image: url(https://www.infosys.com/content/dam/infosys-web/en/home/images/agile-digital-01.png);
+  background-image: url(../images/agile-digital-01.png);
 }
 .learn-bg-img {
-  background-image: url(https://www.infosys.com/content/dam/infosys-web/en/home/images/always-learning-01.png);
+  background-image: url(../images/always-learning-01.png);
 }
 .dnf-digital-capabilities-lead {
-  background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/digital-capabilities-lead.png);
+  background-image: url(../images/capabilities1.avif);
 }
 .dnf-digital-operating-lead {
-  background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/digital-operating-models-lead.png);
+  background-image: url(../images/digital-operating-models-lead.png);
 }
 .dnf-talent-transformations-lead {
-  background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/talent-transformations-lead.png);
+  background-image: url(../images/talent-transformations-lead.png);
 }
 #home_section,
 .home_promo_banner {

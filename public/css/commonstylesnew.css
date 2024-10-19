@@ -1747,13 +1747,13 @@ ul.navs > li > .menu-title {
   z-index: 0;
 }
 .ai-powered-core-img {
-  background-image: url(https://www.infosys.com/content/dam/infosys-web/en/home/images/ai-core-01.png);
+  background-image: url(../images/home/images/ai-core-01.png);
 }
 .agile-digital-bg-img {
-  background-image: url(https://www.infosys.com/content/dam/infosys-web/en/home/images/agile-digital-01.png);
+  background-image: url(../images/home/images/agile-digital-01.png);
 }
 .learn-bg-img {
-  background-image: url(https://www.infosys.com/content/dam/infosys-web/en/home/images/always-learning-01.png);
+  background-image: url(../images/home/images/always-learning-01.png);
 }
 .dnf-digital-capabilities-lead {
   background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/digital-capabilities-lead.png);
@@ -2145,7 +2145,7 @@ input.search-textbox {
   font-weight: 700;
 }
 .doMoreExpand {
-  background-image: url(https://www.infosys.com/content/dam/infosys-web/en/home/images/explore_expand.svg);
+  background-image: url(../images/home/images/explore_expand.svg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50%;
@@ -2309,7 +2309,7 @@ button.search-toggle-bg {
 .closeWrpr {
   position: absolute;
   background-color: #ffffff;
-  background-image: url(https://www.infosys.com/content/dam/infosys-web/en/home/images/explore_expand.svg);
+  background-image: url(../images/home/images/explore_expand.svg);
   background-size: contain;
   border-radius: 50%;
   cursor: pointer;
@@ -2629,7 +2629,7 @@ button.search-toggle-bg {
   min-height: auto;
 }
 /*.careers-img-container {
-	background-image: url(https://www.infosys.com/content/dam/infosys-web/en/home/images/careers-video-img.jpg);
+	background-image: url(../images/home/images/careers-video-img.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -7783,7 +7783,7 @@ Insights Promo CSS
     padding-bottom: 75px;
   }
   /*.careers-img-container {
-	background-image: url(https://www.infosys.com/content/dam/infosys-web/en/home/images/careers-video-img.jpg);
+	background-image: url(../images/home/images/careers-video-img.jpg);
 	background-position: center center;
 	background-size: cover;
 	min-height: 450px;

@@ -7,13 +7,27 @@ import { CareersComponent } from '../careers/careers.component';
 import { DoMoreComponent } from '../do-more/do-more.component';
 
 import { LoadJsDynamicallyService } from '../../load-js-dynamically.service';
+import { BurgerMenuComponent } from '../burger-menu/burger-menu.component';
+import { CapabilitiesComponent } from '../capabilities/capabilities.component';
+import { OperatingComponent } from '../operating/operating.component';
+import { TransformationsComponent } from '../transformations/transformations.component';
 
 declare var $: any;
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [DoMoreComponent,AboutUsComponent,InvestorsComponent,CareersComponent,ContactUsComponent,FooterComponent],
+  imports: [DoMoreComponent,
+    AboutUsComponent,
+    InvestorsComponent,
+    CareersComponent,
+    ContactUsComponent,
+    FooterComponent,
+    CapabilitiesComponent,
+    OperatingComponent,
+    TransformationsComponent,
+    BurgerMenuComponent
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
