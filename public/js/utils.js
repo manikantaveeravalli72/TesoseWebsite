@@ -687,7 +687,7 @@
         self.handleLoginRedirect = function() {
             if (!loginRedirected) {
                 loginRedirected = true;
-                alert(Granite.I18n.get("Your request could not be completed because you have been signed out."));
+                // alert(Granite.I18n.get("Your request could not be completed because you have been signed out."));
 
                 var l = util.getTopWindow().document.location;
                 l.href = self.externalize("/") + "?resource=" + encodeURIComponent(l.pathname + l.search + l.hash);

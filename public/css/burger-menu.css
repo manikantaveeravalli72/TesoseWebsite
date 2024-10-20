@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap);
 @import url(https://use.typekit.net/nkq8fly.css);
 @font-face {
-  font-family: tungstenw05-medium;
+  font-family: 'tungstenw05-medium';
   src: url(https://www.infosys.com/content/dam/infosys-web/en/fonts/tungstenw05-medium.woff2)
       format("woff2"),
     url(https://www.infosys.com/content/dam/infosys-web/en/fonts/tungstenw05-medium.woff)
@@ -66,22 +66,22 @@
 }
 .automate {
   background: #ab6604
-    url(https://www.infosys.com/content/dam/infosys-web/burger-menu/en/images/digital-capabilities-menu.png)
+    url("../images/background-img/digital-capabilities-menu.webp")
     no-repeat scroll -150px 65px;
 }
 .innovate {
   background: #0271b1
-    url(https://www.infosys.com/content/dam/infosys-web/burger-menu/en/images/digital-operating-models-menu.png)
-    no-repeat scroll -20px 65px;
+  url("../images/background-img/digital-operating-models-menu.webp")
+  no-repeat scroll -20px 65px;
 }
 .learn {
   background: #8e2d8d
-    url(https://www.infosys.com/content/dam/infosys-web/burger-menu/en/images/talent-transformations-menu.png)
+    url("../images/background-img/digital-operating-models-menu.webp")
     no-repeat scroll 0 65px;
 }
 .tales-transformation {
   background: #c9dbcb
-    url(https://www.infosys.com/content/dam/infosys-web/burger-menu/en/images/tales-of-transformation-menu.png)
+    url("../images/background-img/tales-of-transformation-menu.png")
     no-repeat scroll 0 65px;
 }
 .automate,
@@ -172,14 +172,14 @@ ul.tennis-li .collapse li {
   padding-left: 6px; */
 }
 .menu .li-separator .collapse-txt.collapsed:after {
-  background-image: url(https://www.infosys.com/content/dam/infosys-web/burger-menu/en/images/menu-tennis-plus.png);
+  background-image: url("../images/background-img/menu-tennis-plus.png");
   background-size: 9px;
   background-repeat: no-repeat;
   background-position: 5px 2px;
   top: 24px;
 }
 .menu .li-separator .collapse-txt:after {
-  background-image: url(https://www.infosys.com/content/dam/infosys-web/burger-menu/en/images/menu-tennis-minus.png);
+  background-image: url("../images/background-img/menu-tennis-minus.png");
   background-size: 9px;
   background-repeat: no-repeat;
   background-position: 5px 6px;
@@ -197,7 +197,7 @@ ul.tennis-li .collapse li {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url(https://www.infosys.com/content/dam/infosys-web/burger-menu/en/images/menu-tennis-arrow.png);
+  background-image: url("../images/background-img/menu-tennis-arrow.png");
   background-size: contain;
   background-position: 0 10px;
   width: 10px;
@@ -261,7 +261,7 @@ ul.tennis-li .collapse li {
 }
 .menuItems {
   background-color: #fff;
-  background-image: url(https://www.infosys.com/content/dam/infosys-web/burger-menu/en/images/pattern-bg.png);
+  background-image: url("../images/background-img/pattern-bg.webp");
   background-repeat: repeat;
   -webkit-background-size: cover;
   -webkit-background-size: cover;

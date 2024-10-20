@@ -52,6 +52,26 @@
                       </button>
                     </div>
                   </div>
+                  <div class="search" aria-label="Site Search">
+                    <div class="search__inner search__inner--up">
+                    
+                      <form class="search__form" action="/search.html" method="get">
+                        <input id="k" class="search__input" name="k" type="search" placeholder="What are you looking for?" autocomplete="off" spellcheck="false" title="Search" aria-label="search text"/>
+                                               <label for="k" class="none">Search</label>
+                        <span class="search__info">Hit enter to search or ESC to close</span>
+                
+                      </form>
+                    </div>
+                                 <button id="btn-search-close" class="btn1 btn--search-close" aria-label="Close search form">
+                      <svg class="icon icon--cross">
+                        <use xlink:href="#icon-cross"></use>
+                      </svg>
+                    </button>
+                    <div class="search__inner search__inner--down">
+                      <!-- search related content-->
+                      <div class="search__related"></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

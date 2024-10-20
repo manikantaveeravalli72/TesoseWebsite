@@ -205,7 +205,7 @@
       padding-left: 40px;
       list-style-type: none;
       margin-bottom: 10px;
-      background-image: url("https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/list-arrow.png");
+      background-image: url("../images/clientlib-base/list-arrow.webp");
       background-repeat: no-repeat;
       background-position: 10px 10px;
   }
@@ -1553,7 +1553,7 @@
       }
       .menuItems {
           background-color: #fff;
-          background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/pattern-bg.png);
+          background-image: url("../images/clientlib-base/pattern-bg.webp");
           background-position: center center;
           background-repeat: repeat;
           background-size: cover;
@@ -3406,7 +3406,7 @@
   }
   .yellow-bg ul > li {
       display: block;
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/right-chevron-black.svg);
+      background-image: url("../images/clientlib-base/right-chevron-black.svg");
       background-repeat: no-repeat;
       padding-left: 20px;
       background-position: 0 5px;
@@ -3606,7 +3606,7 @@
       opacity: 1;
   }
   ul.offering-list li {
-      background: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/list-arrow.png);
+      background: url("../images/clientlib-base/list-arrow.webp");
       background-repeat: no-repeat;
       background-position: 10px 10px;
   }
@@ -3881,7 +3881,7 @@
   --------------------------------------------------------------*/
   @media screen and (max-width: 992px) {
   .resp-arrow {
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/stock/chevron-sign-down.png);
+      /* background-image: url(""); */
       background-repeat: no-repeat;
       float: right;
       width: 15px !important;
@@ -3889,7 +3889,7 @@
       margin-top: 5px;
   }
   .resp-tab-active span.resp-arrow {
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/stock/chevron-up-arrow.png);
+      /* background-image: url(""); */
   }
   /*-----------Accordion styles-----------*/
   
@@ -3986,16 +3986,13 @@
       padding-left: 5px;
   }
   .resp-arrow {
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/stock/chevron-sign-down.png);
       background-repeat: no-repeat;
       float: right;
       width: 15px !important;
       height: 15px !important;
       margin-top: 5px;
   }
-  .resp-tab-active span.resp-arrow {
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/stock/chevron-up-arrow.png);
-  }
+
   /*-----------Accordion styles-----------*/
   
   .resp-tab-active {
@@ -4116,7 +4113,7 @@
       }
   
       #challenges-solution .panel-title a span::before {
-        background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/infographics/challenge.svg);
+        background-image: url("../images/clientlib-base/challenge.svg");
         display: inline-block;
         background-repeat: no-repeat;
         background-size: contain;
@@ -4577,7 +4574,7 @@
       list-style-type: none;
       padding-left: 26px;
       margin-bottom: 15px;
-       background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/pentagone-right-chevron.png);
+       background-image: url("../images/clientlib-base/pentagone-right-chevron.png");
       background-position: 0 7px;
       background-repeat: no-repeat;
   }
@@ -4709,12 +4706,12 @@
       }
       
       #petagon_modal_carousel .owl-prev {
-          background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/pentagone-left-arrow.png);
+          background-image: url("../images/clientlib-base/pentagone-left-arrow.png");
           left: 200px;
       }
   
       #petagon_modal_carousel .owl-next {
-          background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/pentagone-right-arrow.png);
+          background-image: url("../images/clientlib-base/pentagone-right-arrow.png");
           right: 200px;
       }
       
@@ -4929,7 +4926,7 @@
   #thought_leadership .opportunities {
       padding: 60px 60px;
       /*background-image: url("https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/stay-connected.jpg"); */
-      background: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/careers.jpg);
+      background: url("../images/clientlib-base/careers.webp");
       background-repeat: no-repeat;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -5153,7 +5150,7 @@
       text-indent: 0.01px;
       text-overflow: '';
       width: 165px;
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/down-arrow.png);
+      background-image: url("../images/clientlib-base/down-arrow.png");
       background-repeat: no-repeat;
       background-position: right center;
       border: 0;
@@ -5175,7 +5172,7 @@
       overflow: hidden;
       text-indent: 0.01px;
       width: 100%;
-      background: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/down-arrow.png) #fff no-repeat 100% center;
+      background: url("../images/clientlib-base/down-arrow.png") #fff no-repeat 100% center;
       background-size: 15px 15px;
       border: none;
       border-bottom: solid 1px #7E7E7E;
@@ -5536,12 +5533,12 @@
   }
   #slider_list_carousel .owl-nav .owl-prev {
       left: -50px !important;
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/arrow-left.png);
+      background-image: url("../images/clientlib-base/arrow-left.png");
   }
   #slider_list_carousel .owl-nav .owl-next {
       
       right: -50px !important;
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/arrow-right.png);
+      background-image: url("../images/clientlib-base/arrow-right.png");
   }
   .whatnew-box {
       margin: 0 auto;
@@ -5550,7 +5547,7 @@
       min-height: 500px;
       padding: 30px;
       position: relative;
-      background: #BEE3FF url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/line-pattern-bg.png);
+      background: #BEE3FF url("../images/clientlib-base/line-pattern-bg.png");
   }
   
   @media screen and (max-width: 1024px){
@@ -5617,7 +5614,7 @@
       -webkit-transition: all 0.5s ease 0.1s;
       transition: all 0.5s ease 0.1s;
   }
-  .
+  
   
   .bottom-gradient-grid {
       background: rgba(0, 0, 0, 0) linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 23%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 68%, rgba(0, 0, 0, 0) 81%, rgba(0, 0, 0, 0) 92%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0;
@@ -5697,7 +5694,7 @@
       color: #FFFFFF !important;
   }
   .sustainability {
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/sustainability.jpg);
+      background-image: url("../images/clientlib-base/sustainability.jpg");
       background-repeat: no-repeat;
       -webkit-background-size: cover;
       background-size: cover;
@@ -5707,7 +5704,7 @@
   }
   
   .iki {
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/iki.jpg) !important;
+      background-image: url("../images/clientlib-base/iki.jpg") !important;
       
   }
   
@@ -5734,7 +5731,7 @@
   }
   @media screen and (max-width: 1024px) {
   .sustainability {
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/sustainability.jpg);
+      background-image: url("../images/clientlib-base/sustainability.jpg");
       background-repeat: no-repeat;
       -webkit-background-size: cover;
       background-size: cover;
@@ -5750,7 +5747,7 @@
   }
   @media screen and (max-width: 767px) {
   .sustainability {
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/sustainability.jpg);
+      background-image: url("../images/clientlib-base/sustainability.jpg");
       background-repeat: no-repeat;
       -webkit-background-size: cover;
       background-size: cover;
@@ -5880,7 +5877,7 @@
       color: #FFFFFF !important;
   }
   .sustainability {
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/about/images/sustainability.jpg);
+      background-image: url("../images/clientlib-base/sustainability.jpg");
       background-repeat: no-repeat;
       -webkit-background-size: cover;
       background-size: cover;
@@ -5890,7 +5887,7 @@
   }
   
   .iki {
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/iki.jpg) !important;
+      background-image: url("../images/clientlib-base/iki.jpg") !important;
   }
   
   .sust-para {
@@ -5916,7 +5913,7 @@
   }
   @media screen and (max-width: 1024px) {
   .sustainability {
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/about/images/sustainability.jpg);
+      background-image: url("../images/clientlib-base/sustainability.jpg");
       background-repeat: no-repeat;
       -webkit-background-size: cover;
       background-size: cover;
@@ -5932,7 +5929,7 @@
   }
   @media screen and (max-width: 767px) {
   .sustainability {
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/about/images/sustainability.jpg);
+      background-image: url("../images/clientlib-base/sustainability.jpg");
       background-repeat: no-repeat;
       -webkit-background-size: cover;
       background-size: cover;
@@ -5959,7 +5956,7 @@
       padding: 75px 0;
   }
   .bg-ship {
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/stock/digital-champions.jpg);
+      background-image: url("../images/clientlib-base/digital-champions.webp");
       background-repeat: no-repeat;
       background-position: center center;
       -webkit-background-size: cover;
@@ -6418,7 +6415,7 @@
   }
   
   ul.offering-list li:hover {
-      background: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/list-arrow.png);
+      background: url("../images/clientlib-base/list-arrow.webp");
       background-repeat: no-repeat;
       background-position: 10px 3px;
       background-size: 20px 20px;
@@ -7273,7 +7270,7 @@
   #main-text-body ul > li, #press_releases ul > li, #content-container ul > li, .content-inner ul > li, #solution ul > li, ul.list-items > li {
       display: block;
       padding-left: 20px;
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/right-chevron-blue.svg);
+      background-image: url("../images/clientlib-base/right-chevron-blue.svg");
       background-repeat: no-repeat;
       background-position: 0 8px;
   }
@@ -7285,25 +7282,25 @@
       margin-bottom: 25px;
   }*/
   .googleCalendar{
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/google.svg);
+      background-image: url("../images/clientlib-base/google.svg");
       background-repeat: no-repeat;
       background-position: 7px 50%;
       background-size: 16px auto;
   }
   .yahooCalendar{
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/yahoo.svg);
+      background-image: url("../images/clientlib-base/yahoo.svg");
       background-repeat: no-repeat;
       background-position: 7px 50%;
       background-size: 16px auto;
   }
   .appleCalendar{
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/apple.svg);
+      background-image: url("../images/clientlib-base/apple.svg");
       background-repeat: no-repeat;
       background-position: 7px 50%;
       background-size: 16px auto;
   }
   .outlookCalendar{
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/microsoft.svg);
+      background-image: url("../images/clientlib-base/microsoft.svg");
       background-repeat: no-repeat;
       background-position: 7px 50%;
       background-size: 16px auto;
@@ -7382,7 +7379,7 @@
   }
   
   ul.offering-list li:hover {
-      background: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/list-arrow.png);
+      background: url("../images/clientlib-base/list-arrow.webp");
       background-repeat: no-repeat;
       background-position: 10px 10px;
       text-decoration: underline;
@@ -7398,7 +7395,7 @@
   }
   .redefine-bg {
       padding: 60px;
-      background: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/offeringImg.png);
+      background: url("../images/clientlib-base/offeringImg.webp");
       background-repeat: no-repeat;
       background-position: center center;
       -webkit-background-size: cover;
@@ -7460,7 +7457,7 @@
   }
   .opportunities {
       padding: 60px 60px;
-      background: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/careers.jpg);
+      background: url("../images/clientlib-base/careers.webp");
       background-repeat: no-repeat;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -7610,7 +7607,7 @@
           font-size: 35px;
       }
        ul.offering-list li {
-          background: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/arrow-right.png);
+          background: url("../images/clientlib-base/arrow-right.png");
           background-repeat: no-repeat;
           background-position: 10px 9px;
           background-size: 20px 20px;
@@ -7624,7 +7621,7 @@
       .service-offering ul.offering-list li {
           padding-left: 40px;
           margin-bottom: 0;
-          background: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/arrow-right.png);
+          background: url("../images/clientlib-base/arrow-right.png");
           background-repeat: no-repeat;
           background-position: 10px 10px;
           background-size: 20px 20px;	
@@ -7966,7 +7963,7 @@
   /*-------------------------------- Internet of things------------------------------ */
   
   #section6 {   
-      background-image: url("https://www.infosys.com/content/dam/infosys-web/en/engineering-services/service-offerings/internet-of-things/Images/bg2.jpg");   
+      background-image: url("../images/clientlib-base/bg2.avif");   
         background-color: #231f20;    
   }
   
@@ -8074,7 +8071,7 @@
   }
   
   #features .panel-heading + .panel-collapse > .panel-body ul > li {
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/products-and-platforms/wingspan/Images/right-arrow-white.png);
+      background-image: url("../images/clientlib-base/right-arrow-white.png");
       background-position: 0 8px;
       margin-bottom: 10px;
       line-height: 30px;
@@ -8204,7 +8201,7 @@
     }
   
   .offerings-ul li {
-      background: url(https://www.infosys.com/content/dam/infosys-web/en/services/big-data-testing/Images/arrow-grey.png);
+      background: url("../images/clientlib-base/arrow-grey.webp");
       list-style-type: none;
       padding-left: 22px;
       background-position: 0 7px;
@@ -8272,7 +8269,7 @@
   ul.list-items > li {
       display: block;
       padding-left: 20px;
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/right-chevron-blue.svg);
+      background-image: url("../images//clientlib-base/right-chevron-blue.svg");
       background-repeat: no-repeat;
       background-position: 0 8px;
   }
@@ -9603,13 +9600,13 @@
   }
   .history_slider .slick-prev {
       left: -40px;
-      background-image: url("https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/arrow-left-white.png") !important;
+      background-image: url("../images/clientlib-base/arrow-left-white.png") !important;
       width: 32px;
       height: 32px;
   }
   .history_slider .slick-next {
       right: -40px;
-      background-image: url("https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/arrow-right-white.png") !important;
+      background-image: url("../images/clientlib-base/arrow-right-white.png") !important;
       width: 32px;
       height: 32px;	
   }
@@ -10662,7 +10659,7 @@
       text-indent : 0.01px;
       text-overflow : '';
       width: 225px;
-      background-image: url(https://www.infosys.com/content/dam/infosys-web/en/global-resource/background-image/down-arrow.png);
+      background-image: url("../images/clientlib-base/down-arrow.png");
       background-repeat: no-repeat;
       background-position: right center;
       border: 0;
