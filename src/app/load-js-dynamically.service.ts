@@ -10,7 +10,7 @@ export const ScriptStore: Scripts[] = [
   { name: 'customdev', src: '../../../public/js/customdev.js' },
   { name: 'jquery', src: '../../../public/js/jquery.js' },
   { name: 'query-ui', src: '../../../public/js/jquery-ui.js' },
-  { name: 'burger-menu', src: '../../../public/js/burger-menu.js' },
+  { name: 'burger-menu', src: '/murali/public/js/burger-menu.js' },
   { name: 'type', src: '../../../public/js/type.js' },
   { name: 'custom', src: '../../../public/js/custom.js' },
   { name: 'jquery.scrollify.min', src: '../../../public/js/jquery.scrollify.min.js' },
