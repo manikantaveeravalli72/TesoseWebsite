@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Tungsten A';
-    src: url('https://www.infosys.com/content/dam/infosys-web/en/services/application-modernization/insights/modernization-radar-2022/fonts/tungstenw05-medium.woff2')
+    /* src: url('https://www.infosys.com/content/dam/infosys-web/en/services/application-modernization/insights/modernization-radar-2022/fonts/tungstenw05-medium.woff2')
         format('woff2'),
       url('https://www.infosys.com/content/dam/infosys-web/en/services/application-modernization/insights/modernization-radar-2022/fonts/tungstenw05-medium.woff')
-        format('woff');
+        format('woff'); */
     /* url('../fonts/Tungsten-Bold.eot'),
       url('../fonts/Tungsten-Bold.eot?#iefix') format('embedded-opentype'), 
        url('../fonts/Tungsten-Bold.ttf') format('truetype'), 
@@ -14,10 +14,10 @@
   }
   @font-face {
     font-family: 'Tungsten B';
-    src: url('https://www.infosys.com/content/dam/infosys-web/en/services/application-modernization/insights/modernization-radar-2022/fonts/tungstenw05-medium.woff2')
+    /* src: url('https://www.infosys.com/content/dam/infosys-web/en/services/application-modernization/insights/modernization-radar-2022/fonts/tungstenw05-medium.woff2')
         format('woff2'),
       url('https://www.infosys.com/content/dam/infosys-web/en/services/application-modernization/insights/modernization-radar-2022/fonts/tungstenw05-medium.woff')
-        format('woff');
+        format('woff'); */
     /* url('../fonts/Tungsten-Bold.eot'),
       url('../fonts/Tungsten-Bold.eot?#iefix') format('embedded-opentype'), 
        url('../fonts/Tungsten-Bold.ttf') format('truetype'), 

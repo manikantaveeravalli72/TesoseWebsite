@@ -405,7 +405,7 @@ _g.shared.HTTP = new function() {
          * @param {String} url The URL
          * @return {String} The URL without parameters
          */
-        removeParameters: Granite.HTTP.removeParameters,
+        removeParameters: "",//Granite.HTTP.removeParameters,
 
         /**
          * Adds the specified selector to an URL.
