@@ -4979,9 +4979,9 @@ function vplayercall(istreamfile, hei, contid, startmode) {
         'mute': 'false',
         //		'logo.file': '/content/dam/infosys-web/en/global-resource/images/' +  logoimagename,       commented
         //		'logo.position': 'top-left',															commented   	
-        'author': 'Infosys Limited',
-        'abouttext': 'Infosys Limited',
-        'aboutlink': 'http://www.infosys.com',
+        'author': ' ',
+        'abouttext': ' ',
+        'aboutlink': '  ',
         //		'skin': '/richmedia/players/vskin/infosys.zip',        									commented
         'controlbar.position': 'over',
         'plugins': {
@@ -5008,9 +5008,9 @@ function vplayercallFill(istreamfile, preimage, wid, hei, contid, startmode) {
         'height': hei - 10,
         'logo.file': '/SiteCollectionImages/infosys-logo.png',
         'logo.position': 'top-left',
-        'author': 'Infosys Limited',
-        'abouttext': 'Infosys Limited',
-        'aboutlink': 'http://www.infosys.com',
+        'author': ' ',
+        'abouttext': ' ',
+        'aboutlink': '  ',
         'skin': '/richmedia/players/vskin/infosys.zip',
         'stretching': 'fill',
         'controlbar.position': 'over',
@@ -5036,9 +5036,9 @@ function vplayercallhei(istreamfile, preimage, wid, hei, contid, startmode) {
         'width': '100%',
         'logo.file': '/SiteCollectionImages/infosys-logo.png',
         'logo.position': 'top-left',
-        'author': 'Infosys Limited',
-        'abouttext': 'Infosys Limited',
-        'aboutlink': 'http://www.infosys.com',
+        'author': ' ',
+        'abouttext': ' ',
+        'aboutlink': '  ',
         'skin': '/richmedia/players/vskin/infosys.zip',
         'stretching': 'fill',
         'controlbar.position': 'over',
@@ -5071,9 +5071,9 @@ function vplayercAudio(istreamfile, wid, contid, startmode) {
         //       'mute': 'false',
         'width': wid,
         'height': playerhei,
-        'author': 'Infosys Limited',
-        'abouttext': 'Infosys Limited',
-        'aboutlink': 'http://www.infosys.com',
+        'author': ' ',
+        'abouttext': ' ',
+        'aboutlink': '  ',
         'plugins': {
             '/content/dam/infosys-web/en/audio/viral-2h.swf': {
                 onpause: 'false',

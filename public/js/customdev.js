@@ -14,15 +14,15 @@ $(document).ready(function(){
 		var counter = 0;
 		var itemCount = 5;
 		var isPublicHost = false;
-//		var queryURL ="/bin/infosys/newsheader?rootPath=";
-        var queryURL ="/content/infosys-web/en/resource-type-servlets/infosys-news-header-servlet.infosys-news.header?rootPath=";
-		var queryURLPathParam=["/content/infosys-web/en/newsroom/press-releases",
-							"/content/infosys-web/en/newsroom/events",
-							"/content/infosys-web/en/infosys-stories"];
-		var queryURLTitleParam=["News","Events","Infosys Stories"];
+//		var queryURL ="/bin/TESose/newsheader?rootPath=";
+        var queryURL ="/content/TESose-web/en/resource-type-servlets/TESose-news-header-servlet.TESose-news.header?rootPath=";
+		var queryURLPathParam=["/content/TESose-web/en/newsroom/press-releases",
+							"/content/TESose-web/en/newsroom/events",
+							"/content/TESose-web/en/TESose-stories"];
+		var queryURLTitleParam=["News","Events","TESose Stories"];
 		
 		//Check if the url is public for shortening the pathname
-		if(currenthost == "www.infosys.com" || currenthost == "test.infosysapps.com" || currenthost == "infystage.infosysapps.com")
+		if(currenthost == "www.TESose.com" || currenthost == "test.TESoseapps.com" || currenthost == "infystage.TESoseapps.com")
 		{
 			isPublicHost = true;
 		}
@@ -46,7 +46,7 @@ $(document).ready(function(){
 					var itemObjs = JSON.parse(resData);
 					if(isPublicHost)
 					{
-						itemObjs[0].itemPath = itemObjs[0].itemPath.replace("/content/infosys-web/en","");
+						itemObjs[0].itemPath = itemObjs[0].itemPath.replace("/content/TESose-web/en","");
 					}
 					catHTML +='<div class="calendar-para"><ul>'
 					catHTML += '<li>'+'<span>'+itemObjs[0].articleMediaCategory+'</span>' +'<a href="'+ itemObjs[0].itemPath +'" title="'+ itemObjs[0].itemTitle +'" class="calendar-link">'+ itemObjs[0].itemTitle +'</a>'+'</li>'
@@ -57,7 +57,7 @@ $(document).ready(function(){
 					{
 						if(isPublicHost)
 						{
-							itemObjs[item].itemPath = itemObjs[item].itemPath.replace("/content/infosys-web/en","");
+							itemObjs[item].itemPath = itemObjs[item].itemPath.replace("/content/TESose-web/en","");
 						}
 						catHTML += '<li>'+'<span>'+itemObjs[item].articleMediaCategory+'</span>' +'<a href="'+ itemObjs[item].itemPath +'" title="'+ itemObjs[item].itemTitle +'" class="calendar-link">'+ itemObjs[item].itemTitle +'</a>'+'</li>'
 					}
